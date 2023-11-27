@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import "reset.css";
+/* Components */
+@import "/css/components/status-bar.css";
+/* Screens */
+@import"/css/screens/login.css";
+
+body{
+    font-family: 'Slabo 27px', serif;
+}
+
