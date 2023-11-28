@@ -2,6 +2,8 @@
 @import "reset.css";
 /* Components */
 @import "/css/components/status-bar.css";
+@import "/css/components/nav-bar.css";
+@import "/css/components/screen-header.css";
 /* Screens */
 @import"/css/screens/login.css";
 
