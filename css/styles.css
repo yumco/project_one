@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 @import "reset.css";
+@import "variables.css";
 /* Components */
 @import "/css/components/status-bar.css";
 @import "/css/components/nav-bar.css";
 @import "/css/components/screen-header.css";
 @import "/css/components/user-component.css";
+@import"/css/components/badge.css";
 /* Screens */
 @import"/css/screens/login.css";
 @import"/css/screens/friends.css";
@@ -13,3 +15,6 @@ body{
     font-family: 'Slabo 27px', serif;
 }
 
+.main-screen{
+    padding: 0px var(--horizontal-space);
+}

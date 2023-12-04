@@ -2,10 +2,29 @@
     text-align: center;
     display: block;
     background-color: rgba(221, 216, 216, 0.676);
-    padding: 10px 0px;
+    padding: 20px 0px;
+    margin-bottom: 15px;
+    margin-top:-15px;
 }
 
 #friends-display-link i {
     color: rgba(0, 0, 0, 0.3);
 
 }
+
+.friends-screen{
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.friends-screen__friends-header{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.friends-screen__friends-list{
+    width: 300px;
+    margin-right: 120px;
+    
+}
+

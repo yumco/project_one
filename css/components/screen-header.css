@@ -1,7 +1,9 @@
 .screen-header{
     display: flex;
-    justify-content: space-between;
-    padding: 25px;
+    justify-content:space-between;
+    margin: 20px;
+    
+    
 }
 
 
@@ -14,4 +16,6 @@
 
 .screen-header__icons{
     margin-left: 20px;
+    
+    
 }

@@ -37,25 +37,18 @@
     width: 60px;
     height: 60px;
     border-radius: 20px;
-}
-
-
-
-.friends-screen__friends-list{
-    display:flex;
-    flex-direction: column;
     margin: 20px;
-    justify-content: space-between;
-    padding-bottom: 30px;
-  
-    
-    
-
 }
 
 
+.user-component__time{
+    margin-bottom: 10px;
+    display: block;
+    
+}
 
-.friends-screen{
-    margin-top: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+.user-component__columnl:last-child{
+    display: flex;
+    justify-content: space-between;
 }
