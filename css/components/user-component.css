@@ -50,5 +50,7 @@
 
 .user-component__columnl:last-child{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+
 }

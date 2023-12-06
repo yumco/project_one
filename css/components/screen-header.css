@@ -9,12 +9,12 @@
 
 .screen-header__title{
     font-size: 25px;
-    align-items: center;
+    
     font-weight: 600;
 }
 
 
-.screen-header__icons{
+.screen-header__icons span{
     margin-left: 20px;
     
     

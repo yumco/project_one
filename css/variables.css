@@ -1,3 +1,4 @@
 :root {
-    --horizontal-space: -20px;
+    --horizontal-space: 20px;
+    --main-border:1px solid rgba(0, 0, 0, 0.3);
 }
