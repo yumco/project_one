@@ -28,3 +28,55 @@
     
 }
 
+.open-chat__header{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.open-chat__header span {
+    opacity: 0.6;
+    margin-bottom: 25px;
+}
+
+.open-post{
+    display: flex;
+
+}
+
+.open-post__title {
+    font-weight: 600;
+    margin-bottom: 7px;
+
+}
+
+.open-post__hastags{
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.open-post__members{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.open-post__members img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+
+.open-post__members .divider {
+    width: 2px;
+    height: 15px;
+    margin: 0px 5px;
+    background-color: black;
+}
+
+.open-post__member-status{
+    color:#ffb0e0;
+}
