@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - check pop</title>
+    <title>Setting - check pop</title>
 </head> 
 <body>
     <div class="status-bar">
@@ -27,18 +27,17 @@
     </div>
 
 
-
-<header class="screen-header">
-    <h1 class="screen-header__title">Chats</h1>
-    <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-alt fa-lg"></i></span>
-        <span><i class="fas fa-bell-slash fa-lg"></i></span>
-        <span><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a></span>
+<header class="alt-header">
+    <div class="alt-header__column">
+    <i class="fas fa-angle-left fa-2x"></i>
     </div>
-</header>    
-
-
+    <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+    </div>
+    <div class="alt-header__column">
+        <i class="fas fa-search fa-lg fa-xl"></i>
+    </div>
+</header>
 
 
 
@@ -46,22 +45,25 @@
 
 
 <main class="main-screen">
-    <div class="user-component">
-        <div class="user-component__column">
-            <img src="/img/2.jpg" class="user-component__avatar--sm"/>
-            <div class="user-component_text">
-                <h4 class="user-component__title">Lee</h4>  
-                <h6 class="user-component__subtitle">오늘 얼만큼 했어?</h6>    
-            </div>  
-        </div>    
-        
-        <div class="user-component__column">
-            <div class="user-component__column__info">
-            <span class="user-component__time">13:20</span>
-            <div class="badge">1</div>
-            </div>
-        </div>            
-    </div>
+    <ul class="Setting-list">
+        <li class="settings__setting">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
+        </li>
+
+        <li class="settings__setting">
+            <i class="fas fa-flask"></i>
+            <span>Pop Lab</span>
+        </li>
+
+
+        <li class="settings__setting">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+        </li>
+
+
+    </ul>
 </main>
 
 
@@ -81,16 +83,16 @@
         <li class="nav__btn">
             <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-lg"></i>
+            <i class="far fa-comment fa-lg"></i>
             </a>
         </li>
 
         <li class="nav__btn">
             <a class="nav__link" href="find.html">
-                <i class="fas fa-hand-sparkles fa-lg"></i>
+            <i class="fas fa-hand-sparkles fa-lg"></i>
             </a>
         </li>
-        
+
         <li class="nav__btn">
             <a class="nav__link" href="more.html">
                 <i class="fas fa-search fa-lg"></i>
