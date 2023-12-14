@@ -16,6 +16,23 @@
     margin-right: auto;
 }
 
+
+.alt-header__column:nth-child(2){
+    margin-left: 50px;
+
+}
+
 .alt-header__column:last-child{
     margin-left: auto;
+}
+
+.alt-header__column span:last-child{
+    margin-left: 20px;
+}
+
+.alt-header___column:last-child{
+    width: 33%;
+    display: flex;
+    justify-content: end;
+
 }
