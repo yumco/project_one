@@ -11,6 +11,7 @@
 @import"/css/components/icon-row.css";
 /* Screens */
 @import"/css/screens/login.css";
+@import"/css/screens/seed.css";
 @import"/css/screens/friends.css";
 @import"/css/screens/find.css";
 @import"/css/screens/more.css";
