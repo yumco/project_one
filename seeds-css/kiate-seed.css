@@ -1,0 +1,45 @@
+body{
+    padding: 20px;
+}
+
+
+
+.kiate-graph{
+    background-color:rgba(255, 228, 196, 0.747);
+    height: 40px;
+    border-radius:40px ;
+}
+
+.kiate-graph span{
+    display: block;
+    height: 40px;
+    width: 18%;
+    line-height: 40px;
+    text-align: right;
+    background-color: rgb(202, 240, 144);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color:black;
+    font-size: 25px ;
+    animation: stack 1s 1;
+}
+@keyframes stack{
+    0%{
+        width: 0;
+
+    }
+    100%{
+        width: 18%;
+    }
+}
+
+
+h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+

@@ -11,12 +11,18 @@
 @import"/css/components/icon-row.css";
 /* Screens */
 @import"/css/screens/login.css";
-@import"/css/screens/seed.css";
 @import"/css/screens/friends.css";
 @import"/css/screens/find.css";
 @import"/css/screens/more.css";
 @import"/css/screens/setting.css";
 @import"/css/screens/chat.css";
+
+/* seed Screens */
+@import"/seeds-css/jun-seed.css";
+@import "/seeds-css/lee-seed.css";
+@import "/seeds-css/nana-seed.css";
+@import "/seeds-css/kiate-seed.css";
+
 
 
 body{

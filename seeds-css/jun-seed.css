@@ -1,0 +1,90 @@
+body{
+    padding: 20px;
+}
+
+
+
+.jun-graph{
+    background-color:rgba(255, 228, 196, 0.747);
+    height: 40px;
+    border-radius:40px ;
+}
+
+.jun-graph span{
+    display: block;
+    height: 40px;
+    width: 33%;
+    line-height: 40px;
+    text-align: right;
+    background-color: rgb(202, 240, 144);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color:black;
+    font-size: 25px ;
+    animation: stack 1s 1;
+}
+@keyframes stack{
+    0%{
+        width: 0;
+
+    }
+    100%{
+        width: 33%;
+    }
+}
+
+
+
+.jun-graph__solid{
+    border-bottom: 1px solid rgba(0 .0 .0);
+    padding-bottom: 40px;
+    
+
+}
+
+h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+
+.seed-leval{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;    
+}
+
+
+.seed-leval__icon{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(34, 133, 50);
+}
+
+
+
+
+.seed-leval__column{
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.seed-leval__title{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-top: 50px   
+}
+
+.my-seed__icon{
+    padding-top: 30px;
+    color: rgb(34, 133, 50);;
+}
+
