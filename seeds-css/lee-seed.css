@@ -43,3 +43,35 @@ h1{
 
 
 
+.seed__donut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+    box-sizing: border-box;
+    width: 200px;
+    margin-top: 5px;
+
+    --percentage : 0;
+
+
+
+    &:after{
+        content: '';
+        position: absolute;
+        left:0;
+        top:0;
+        width: 100px;
+        height: 100px;
+        border:50px solid;
+        border-color: rgb(234, 217, 174) rgb(130, 190, 147)  rgb(130, 190, 147);
+        border-radius: 50%;
+        transform: rotate(50deg);
+
+    }
+}
+
