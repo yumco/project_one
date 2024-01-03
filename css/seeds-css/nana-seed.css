@@ -23,6 +23,19 @@ body{
     font-size: 25px ;
     animation: stack 1s ;
 }
+
+.nana-graph__solid{
+    border-bottom: 1px solid rgba(0 .0 .0);
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
 @keyframes stack{
     0%{
         width: 0;
@@ -129,3 +142,8 @@ h1{
 
 
 
+.nana-donut__solid{
+    border-bottom: 1px solid rgba(0 .0 .0);
+    padding-bottom: 250px;
+}
+    
