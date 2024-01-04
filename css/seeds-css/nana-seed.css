@@ -48,6 +48,7 @@ body{
 
 
 h1{
+    margin-top: -10px;
     padding-bottom: 20px;
     font-size: 30px;
     font-weight: 500;
@@ -147,3 +148,26 @@ h1{
     padding-bottom: 250px;
 }
     
+
+
+
+#todo-form{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#todo-list{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.today_before__icon{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
